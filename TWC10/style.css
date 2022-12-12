@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+.componentsafter{
+    text-align: center
+}
+
+@layer components{
+    
+    .btn{
+        @apply wheat bg-red-400 rounded-xl px-6 py-2
+    }
+
+}
+
+.wheat{
+    @apply text-[#F5DEB3]
+}
+
+@tailwind utilities;
